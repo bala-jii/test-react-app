@@ -4,6 +4,8 @@ LABEL author="Balaji"
 
 RUN apk update
 
+RUN apk add yarn
+
 RUN mkdir -p /home/apps/react-apps
 
 WORKDIR /home/apps/react-apps
@@ -12,8 +14,6 @@ COPY package.json .
 COPY yarn.lock .
 COPY public .
 COPY src .
-
-RUN npm install -g yarn
 
 RUN npm install -g react-scripts
 
