@@ -5,19 +5,19 @@ services:
         build: ./first-react-app
         container_name: first
         ports:
-            - "3000:8001"
+            - "8001:3000"
         restart: always
 
     second:
         build: ./second-react-app
         container_name: second
         ports:
-            - "3000:8002"
+            - "8002:3000"
         restart: always
 
     third:
         build: ./third-react-app
         container_name: third
         ports:
-            - "3000:8003"
+            - "8003:3000"
         restart: always
