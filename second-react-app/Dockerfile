@@ -4,21 +4,15 @@ LABEL author="Balaji"
 
 RUN apk update
 
-RUN apk add yarn
-
 RUN mkdir -p /home/apps/react-apps
 
 WORKDIR /home/apps/react-apps
 
-COPY package.json .
-COPY yarn.lock .
-COPY public .
-COPY src .
+COPY package*.json .
+COPY index.js .
 
-RUN npm install -g react-scripts
-
-RUN yarn install
+RUN npm install
 
 EXPOSE 3000
 
-CMD [ "yarn", "start" ]
+CMD [ "npm", "start" ]
