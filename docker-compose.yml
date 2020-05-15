@@ -1,0 +1,23 @@
+version: '3.2'
+
+services:
+    first:
+        build: ./first-react-app
+        container_name: first
+        ports:
+            - "3000:8001"
+        restart: always
+
+    second:
+        build: ./second-react-app
+        container_name: second
+        ports:
+            - "3000:8002"
+        restart: always
+
+    third:
+        build: ./third-react-app
+        container_name: third
+        ports:
+            - "3000:8003"
+        restart: always
