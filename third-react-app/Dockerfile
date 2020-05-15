@@ -2,7 +2,7 @@ FROM node:13-alpine
 
 LABEL author="Balaji"
 
-RUN apt-get update
+RUN apk update
 
 RUN mkdir -p /home/apps/react-apps
 
