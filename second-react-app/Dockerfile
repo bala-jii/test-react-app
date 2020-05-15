@@ -8,7 +8,7 @@ RUN mkdir -p /home/apps/react-apps
 
 WORKDIR /home/apps/react-apps
 
-COPY package*.json .
+COPY package*.json ./
 COPY index.js .
 
 RUN npm install
