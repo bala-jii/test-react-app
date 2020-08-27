@@ -1,0 +1,29 @@
+{
+  "common": {
+    "close": "Close",
+    "title": "Title"
+  },
+  "home": {
+    "description": "Linguistic Test and Translation Management",
+    "profile": "Profile",
+    "updateProfile": "Update Profile",
+    "changePassword": "Change Password"
+  },
+  "footer": {
+    "support": "Support",
+    "help": "Help",
+    "aboutUs": "About Us",
+    "zlittDemo": "Watch zLiTT Demo",
+    "generateScreenshots": "Generating Context Screenshots",
+    "faq": "FAQ",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "language": "Language",
+    "change": "Change",
+    "copyright": "Copyright",
+    "allRightsReserved": "All rights reserved",
+    "changeLang": "Change UI Locale",
+    "useCaseblog":"Use Cases Blog"
+  },
+}
